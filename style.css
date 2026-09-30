@@ -1,0 +1,128 @@
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/042/193/644/small_2x/ai-generated-overcast-sky-background-free-photo.jpg);
+    background-size:cover ;
+    font-size: 16px;
+
+}
+.box{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    height: 90%;
+    
+    background-color: rgba(0,0,0,0.4);
+    box-shadow: 0em 0.35em 0.75em skyblue;
+    
+}
+.inp{
+    width: 95%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+    margin: 1em;
+    
+    box-shadow: 0em 0.35em 0.75em skyblue;
+}
+.inp input{
+    font-size: 16px;
+    border:2px solid white;
+    border-radius:1.25em;
+    margin: 0.75em;
+    padding-left: 0.5em;
+    width: 60%;
+    height: 60%;
+    box-shadow: 0em 0em 0.5em white;
+}
+.inp button{
+    border: 2px solid white;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 1.25em;
+    margin: 0.75em;
+    width: 20%;
+    height: 60%;
+    box-shadow: 0em 0em 0.5em white;
+    
+}
+.inp button span{
+    color: black;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+
+.data{
+    height: 45%;
+    background-color: rgba(0,0,0,0.4);
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+    
+    box-shadow: 0em 0.35em 0.75em white;
+}
+
+
+
+.span1{
+    font-size: 1.5em;
+    font-weight: 900;
+    color: white;
+}
+.span2{
+    font-size: 1.5em;
+    color:skyblue;
+    font-weight: 900;
+}
+
+
+.material-symbols-outlined {
+  font-size: 1.5em;
+  color: white;
+  
+}
+
+.temp{
+    width: auto;
+    padding: 0 1em 0 1em;
+    margin-left: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid white;
+    box-shadow: 0 0 0.5em white;
+}
+.icon{
+    width: 95%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon img{
+    height: 100%;
+    width: 70%;
+    border-radius: 50%;
+    display: none;
+}
+.magni{
+    color: skyblue;
+    font-size: 1.2em;
+    font-weight: 900;
+    padding: 0 1em 0 1em;
+    margin-top: 0.25em;
+}
+
+
+
